@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AdjustDown	span_tree.c	/^void AdjustDown(int *a, int size, int start,int *w){$/;"	f
+EG	span_tree.c	/^}EG;$/;"	t	typeref:struct:edge_node	file:
+SWAP	span_tree.c	14;"	d	file:
+VER	span_tree.c	/^}VER;$/;"	t	typeref:struct:ver_node	file:
+book	span_tree.c	/^int book[total_vertex + 1];$/;"	v
+create_min_heap	span_tree.c	/^void create_min_heap(int *a, int size, int *w){$/;"	f
+dfs_check	span_tree.c	/^void dfs_check(int start,int target,VER * graph,int edge_rid,int *rid){$/;"	f
+edge_node	span_tree.c	/^typedef struct edge_node{$/;"	s	file:
+edge_num	span_tree.c	12;"	d	file:
+flag	span_tree.c	/^int flag ;$/;"	v
+heap_sort	span_tree.c	/^void heap_sort(int *a,int size,int *w){$/;"	f
+index	span_tree.c	/^	int index;$/;"	m	struct:edge_node	file:
+link	span_tree.c	/^	EG* link; $/;"	m	struct:ver_node	file:
+link	span_tree.c	/^	struct edge_node* link;$/;"	m	struct:edge_node	typeref:struct:edge_node::edge_node	file:
+main	span_tree.c	/^int main(){$/;"	f
+total_vertex	span_tree.c	11;"	d	file:
+ver_node	span_tree.c	/^typedef struct ver_node{$/;"	s	file:
+vertex	span_tree.c	/^	int vertex;$/;"	m	struct:edge_node	file:
+vertex	span_tree.c	/^	int vertex;$/;"	m	struct:ver_node	file:
+weight	span_tree.c	/^	int weight;$/;"	m	struct:edge_node	file:
