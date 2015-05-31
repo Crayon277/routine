@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+QUICK	quicksort.c	/^void QUICK(int *a, int size ,int *w){$/;"	f
+SWAP	minimum_spanning_tree.c	/^#define SWAP(/;"	d	file:
+create_max_heap	minimum_spanning_tree.c	/^void create_max_heap(int *a,int size,int *w){$/;"	f
+getf	minimum_spanning_tree.c	/^int getf(int*union_a,int v){$/;"	f
+heap_sort	minimum_spanning_tree.c	/^void heap_sort(int *a,int size,int *w){$/;"	f
+main	minimum_spanning_tree.c	/^int main(){$/;"	f
+partion	quicksort.c	/^int partion(int *a , int begin,int end, int *w){$/;"	f
+quicksort	quicksort.c	/^void quicksort(int *a, int begin, int end, int *w){$/;"	f
+quicksort_2	quicksort.c	/^void quicksort_2(int *a, int begin, int end, int *w){$/;"	f
+shift_down	minimum_spanning_tree.c	/^void shift_down(int *a, int size,int i,int *w){$/;"	f

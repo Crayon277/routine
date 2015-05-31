@@ -1,0 +1,12 @@
+The date 2015 年 1 月 1 日 is Thr
+The date 2015 年 1 月 2 日 is Fri
+The date 2015 年 1 月 3 日 is Sat
+The date 2015 年 1 月 4 日 is Sun
+The date 2015 年 1 月 5 日 is Mon
+The date 2015 年 1 月 6 日 is Tue
+The date 2015 年 1 月 7 日 is Wed
+The date 2015 年 1 月 8 日 is Thr
+The date 1989 年 12 月 31 日 is Sun
+The date 1989 年 12 月 30 日 is Sat
+The date 1989 年 1 月 1 日 is Sun
+The date 1988 年 12 月 31 日 is Sat

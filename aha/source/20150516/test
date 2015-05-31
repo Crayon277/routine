@@ -1,0 +1,20 @@
+#!/usr/bin/python
+
+import os 
+anther_line = os.linesep
+while True:
+    fname = raw_input('file name')
+    if os.path.exists(fname):
+        print "All ready exists"
+    else:
+        break
+dir_path = './'
+
+with open(dir_path + fname,'w') as fp:
+    
+    while True:
+            fp.writelines(raw_input()+anther_line)
+    
+except KeyboardInterrupt as i:
+    print i
+
