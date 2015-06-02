@@ -9,6 +9,11 @@
 #include<stdlib.h>
 
 int main(){
+	int count = 0;
+	printf("%d %d %d\n",count++,count++,count++);//0,1,2
+	count = 1;
+	count = count++;
+	printf("%d\n",count);//1
 	int i = 0,j = 0;
 	int u[10] = {
 		0
