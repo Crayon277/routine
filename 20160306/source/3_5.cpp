@@ -10,7 +10,7 @@ using namespace std;
 
 int main(){
 	int candidate[6]={
-		0
+		0//have to initiate to zero.
 	};
 	int vote;
 	while(cin>>vote){
