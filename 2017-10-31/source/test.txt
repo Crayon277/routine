@@ -1,0 +1,1 @@
+I want use bash '>' command to redirect the standard output stream to a file.
