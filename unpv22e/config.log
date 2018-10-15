@@ -11,153 +11,53 @@ main(){return(0);}
 1 warning generated.
 configure:697: checking whether the C compiler (gcc  ) is a cross-compiler
 configure:702: checking whether we are using GNU C
-configure:711: gcc -E conftest.c
 configure:726: checking whether gcc accepts -g
 configure:756: checking for ranlib
 configure:784: checking for pthread_key_create in -lpthread
-configure:803: gcc -o conftest -g -O2   conftest.c -lpthread   1>&5
 configure:886: checking for mq_open in -lposix4
-configure:905: gcc -o conftest -g -O2 -D_REENTRANT   conftest.c -lposix4  -lpthread  1>&5
-ld: library not found for -lposix4
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-configure: failed program was:
-#line 894 "configure"
-#include "confdefs.h"
-/* Override any gcc2 internal prototype to avoid an error.  */
-/* We use char because int might match the return type of a gcc2
-    builtin and then its argument prototype would still apply.  */
-char mq_open();
-
-int main() {
-mq_open()
-; return 0; }
 configure:934: checking for mq_open in -lrt
-configure:953: gcc -o conftest -g -O2 -D_REENTRANT   conftest.c -lrt  -lpthread  1>&5
-ld: library not found for -lrt
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-configure: failed program was:
-#line 942 "configure"
-#include "confdefs.h"
-/* Override any gcc2 internal prototype to avoid an error.  */
-/* We use char because int might match the return type of a gcc2
-    builtin and then its argument prototype would still apply.  */
-char mq_open();
-
-int main() {
-mq_open()
-; return 0; }
 configure:982: checking for /Users/Crayon_277/libunpipc.a
 configure:994: checking for /usr/lib/libnsl.so
 configure:1003: checking how to run the C preprocessor
-configure:1024: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1064: checking for ANSI C header files
-configure:1077: gcc -E  conftest.c >/dev/null 2>conftest.out
-configure:1144: gcc -o conftest -g -O2 -D_REENTRANT   conftest.c -lpthread  1>&5
-configure:1139:67: warning: implicitly declaring library function 'exit' with type 'void (int) __attribute__((noreturn))'
-if (XOR (islower (i), ISLOWER (i)) || toupper (i) != TOUPPER (i)) exit(2);
-                                                                  ^
-configure:1139:67: note: include the header <stdlib.h> or explicitly provide a declaration for 'exit'
-1 warning generated.
 configure:1171: checking for sys/types.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1171: checking for sys/time.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1171: checking for time.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1171: checking for errno.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1171: checking for fcntl.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1171: checking for limits.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1171: checking for signal.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1171: checking for stdio.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1171: checking for stdlib.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1171: checking for string.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1171: checking for sys/stat.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1171: checking for unistd.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1171: checking for sys/wait.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1171: checking for sys/ipc.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1171: checking for sys/msg.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1171: checking for sys/sem.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1171: checking for sys/shm.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1171: checking for mqueue.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
-configure:1177:10: fatal error: 'mqueue.h' file not found
-#include <mqueue.h>
-         ^
-1 error generated.
-configure: failed program was:
-#line 1176 "configure"
-#include "confdefs.h"
-#include <mqueue.h>
 configure:1171: checking for semaphore.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1171: checking for sys/mman.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1171: checking for sys/select.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1171: checking for poll.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1171: checking for stropts.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
-configure:1177:10: fatal error: 'stropts.h' file not found
-#include <stropts.h>
-         ^
-1 error generated.
-configure: failed program was:
-#line 1176 "configure"
-#include "confdefs.h"
-#include <stropts.h>
 configure:1171: checking for strings.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1171: checking for sys/ioctl.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1171: checking for sys/filio.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1171: checking for pthread.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1171: checking for door.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
-configure:1177:10: fatal error: 'door.h' file not found
-#include <door.h>
-         ^
-1 error generated.
-configure: failed program was:
-#line 1176 "configure"
-#include "confdefs.h"
-#include <door.h>
 configure:1171: checking for rpc/rpc.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1171: checking for sys/sysctl.h
-configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
 configure:1209: checking whether time.h and sys/time.h may both be included
-configure:1223: gcc -c -g -O2 -D_REENTRANT  conftest.c 1>&5
 configure:1244: checking if uint8_t defined
-configure:1329: gcc -c -g -O2 -D_REENTRANT  conftest.c 1>&5
 configure:1350: checking if int16_t defined
-configure:1435: gcc -c -g -O2 -D_REENTRANT  conftest.c 1>&5
 configure:1456: checking if uint16_t defined
-configure:1541: gcc -c -g -O2 -D_REENTRANT  conftest.c 1>&5
 configure:1562: checking if int32_t defined
-configure:1647: gcc -c -g -O2 -D_REENTRANT  conftest.c 1>&5
 configure:1668: checking if uint32_t defined
-configure:1753: gcc -c -g -O2 -D_REENTRANT  conftest.c 1>&5
 configure:1774: checking if size_t defined
-configure:1859: gcc -c -g -O2 -D_REENTRANT  conftest.c 1>&5
 configure:1880: checking if ssize_t defined
-configure:1965: gcc -c -g -O2 -D_REENTRANT  conftest.c 1>&5
 configure:1987: checking for gethostname function prototype in unistd.h
 configure:2018: checking for getrusage function prototype in sys/resource.h
 configure:2049: checking for isfdtype function prototype in sys/stat.h
@@ -165,102 +65,18 @@ configure:2080: checking for pselect function prototype in sys/select.h
 configure:2111: checking for shm_open function prototype in sys/mman.h
 configure:2199: checking for snprintf function prototype in stdio.h
 configure:2230: checking for thr_setconcurrency function prototype in thread.h
-configure:2236:10: fatal error: 'thread.h' file not found
-#include <thread.h>
-         ^
-1 error generated.
 configure:2262: checking for siginfo_t{}
 configure:2292: checking for timespec{}
 configure:2323: checking for union semun
 configure:2352: checking for /dev/zero
 configure:2363: checking whether rpcgen supports -C option
 configure:2381: checking for bzero
-configure:2409: gcc -o conftest -g -O2 -D_REENTRANT   conftest.c -lpthread  1>&5
-configure:2393:6: warning: incompatible redeclaration of library function 'bzero' [-Wincompatible-library-redeclaration]
-char bzero();
-     ^
-configure:2393:6: note: 'bzero' is a builtin with type 'void (void *, unsigned long)'
-1 warning generated.
 configure:2436: checking for fattach
-configure:2464: gcc -o conftest -g -O2 -D_REENTRANT   conftest.c -lpthread  1>&5
-Undefined symbols for architecture x86_64:
-  "_fattach", referenced from:
-      _main in conftest-6fbedc.o
-ld: symbol(s) not found for architecture x86_64
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-configure: failed program was:
-#line 2441 "configure"
-#include "confdefs.h"
-/* System header to define __stub macros and hopefully few prototypes,
-    which can conflict with char fattach(); below.  */
-#include <assert.h>
-/* Override any gcc2 internal prototype to avoid an error.  */
-/* We use char because int might match the return type of a gcc2
-    builtin and then its argument prototype would still apply.  */
-char fattach();
-
-int main() {
-
-/* The GNU C library defines this for functions which it implements
-    to always fail with ENOSYS.  Some functions are actually named
-    something starting with __ and the normal name is an alias.  */
-#if defined (__stub_fattach) || defined (__stub___fattach)
-choke me
-#else
-fattach();
-#endif
-
-; return 0; }
 configure:2491: checking for isfdtype
-configure:2519: gcc -o conftest -g -O2 -D_REENTRANT   conftest.c -lpthread  1>&5
-Undefined symbols for architecture x86_64:
-  "_isfdtype", referenced from:
-      _main in conftest-70ebd8.o
-ld: symbol(s) not found for architecture x86_64
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-configure: failed program was:
-#line 2496 "configure"
-#include "confdefs.h"
-/* System header to define __stub macros and hopefully few prototypes,
-    which can conflict with char isfdtype(); below.  */
-#include <assert.h>
-/* Override any gcc2 internal prototype to avoid an error.  */
-/* We use char because int might match the return type of a gcc2
-    builtin and then its argument prototype would still apply.  */
-char isfdtype();
-
-int main() {
-
-/* The GNU C library defines this for functions which it implements
-    to always fail with ENOSYS.  Some functions are actually named
-    something starting with __ and the normal name is an alias.  */
-#if defined (__stub_isfdtype) || defined (__stub___isfdtype)
-choke me
-#else
-isfdtype();
-#endif
-
-; return 0; }
 configure:2546: checking for poll
-configure:2574: gcc -o conftest -g -O2 -D_REENTRANT   conftest.c -lpthread  1>&5
 configure:2601: checking for pselect
-configure:2629: gcc -o conftest -g -O2 -D_REENTRANT   conftest.c -lpthread  1>&5
 configure:2656: checking for sigwait
-configure:2684: gcc -o conftest -g -O2 -D_REENTRANT   conftest.c -lpthread  1>&5
 configure:2711: checking for snprintf
-configure:2739: gcc -o conftest -g -O2 -D_REENTRANT   conftest.c -lpthread  1>&5
-configure:2723:6: warning: incompatible redeclaration of library function 'snprintf' [-Wincompatible-library-redeclaration]
-char snprintf();
-     ^
-configure:2723:6: note: 'snprintf' is a builtin with type 'int (char *, unsigned long, const char *, ...)'
-1 warning generated.
 configure:2766: checking for valloc
-configure:2794: gcc -o conftest -g -O2 -D_REENTRANT   conftest.c -lpthread  1>&5
 configure:2821: checking for vsnprintf
-configure:2849: gcc -o conftest -g -O2 -D_REENTRANT   conftest.c -lpthread  1>&5
-configure:2833:6: warning: incompatible redeclaration of library function 'vsnprintf' [-Wincompatible-library-redeclaration]
-char vsnprintf();
-     ^
-configure:2833:6: note: 'vsnprintf' is a builtin with type 'int (char *, unsigned long, const char *, __va_list_tag *)'
-1 warning generated.
 configure:2931: checking for -I/Users/Crayon_277/doc/unpv22e/src/include
